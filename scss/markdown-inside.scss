@@ -663,5 +663,63 @@
     &.vscode-body hr {
       border-bottom-color: #eee;
     }
+    &[data-vscode-theme-name='One Dark Pro'] {
+      &.vscode-body {
+        /* DIY */
+        h1 {
+          color: #e06c75;
+        }
+        h2 {
+          color: #d19a66;
+        }
+        h3 {
+          color: #e5c07b;
+        }
+        h4 {
+          color: #98c379;
+        }
+        h5 {
+          color: #61afef;
+        }
+        h6 {
+          color: #c678dd;
+        }
+        strong {
+          color: #61afef;
+        }
+        em {
+          color: #c678dd;
+        }
+        strong em {
+          color: #ffffff;
+        }
+        s {
+          color: #5c6370;
+        }
+        code {
+          background-color: #21252b;
+          color: #e5c07b;
+        }
+        pre {
+          background-color: #21252b;
+        }
+        blockquote {
+          border-left: 2px solid #5c6370;
+        }
+        a {
+          color: #98c379;
+        }
+        blockquote {
+          color: #7f848e;
+        }
+        hr {
+          height: 1px;
+          background-color: #5c6370;
+        }
+        li::marker {
+          color: #5c6370;
+        }
+      }
+    }
   }
 }
