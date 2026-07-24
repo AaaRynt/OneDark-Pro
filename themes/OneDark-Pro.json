@@ -2023,10 +2023,9 @@
         "fontStyle": "italic"
       }
     },
-
     {
       "name": "DIY",
-      "scope": "entity.other.attribute-name.tsx",
+      "scope": "entity.other.attribute-name.js,entity.other.attribute-name.ts,entity.other.attribute-name.jsx,entity.other.attribute-name.tsx",
       "settings": {
         "fontStyle": ""
       }
@@ -2083,10 +2082,25 @@
     },
     {
       "name": "DIY",
+      "scope": "punctuation.definition.quote.begin.markdown",
+      "settings": {
+        "foreground": "#5c6370"
+      }
+    },
+    {
+      "name": "DIY",
+      "scope": "punctuation.definition.tag",
+      "settings": {
+        "foreground": "#7f848e"
+      }
+    },
+    {
+      "name": "DIY",
       "scope": "heading.1.markdown",
       "settings": {
         "foreground": "#e06c75",
-        "fontSize": 2
+        "fontSize": 1.5,
+        "lineHeight": 1.5
       }
     },
     {
@@ -2094,39 +2108,38 @@
       "scope": "heading.2.markdown",
       "settings": {
         "foreground": "#d19a66",
-        "fontSize": 1.5
+        "fontSize": 1.25,
+        "lineHeight": 1.25
       }
     },
     {
       "name": "DIY",
       "scope": "heading.3.markdown",
       "settings": {
-        "foreground": "#e5c07b",
-        "fontSize": 1.17
+        "foreground": "#e06c75",
+        "fontSize": 1.1,
+        "lineHeight": 1.1
       }
     },
     {
       "name": "DIY",
       "scope": "heading.4.markdown",
       "settings": {
-        "foreground": "#98c379",
-        "fontSize": 1
+        "foreground": "#d19a66"
       }
     },
     {
       "name": "DIY",
       "scope": "heading.5.markdown",
       "settings": {
-        "foreground": "#61afef",
-        "fontSize": 0.83
+        "foreground": "#e06c75"
       }
     },
     {
       "name": "DIY",
       "scope": "heading.6.markdown",
       "settings": {
-        "foreground": "#c678dd",
-        "fontSize": 0.67
+        "foreground": "#d19a66"
       }
     },
     {

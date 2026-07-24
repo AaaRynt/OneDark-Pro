@@ -3,10 +3,10 @@
 ## Enhance the visual display of `markdown` and webview
 
 - init:
-![init](./screenshots/2026-02-19_14-21-03.png)
+  ![init](./screenshots/2026-02-19_14-21-03.png)
 
 - enhance:
-![enhance](./screenshots/2026-02-19_14-24-14.png)
+  ![enhance](./screenshots/2026-02-19_14-24-14.png)
 
 ## Remove the italitic on JSX attribute
 
@@ -33,3 +33,4 @@ Change the display Boolean values in `setting.json`
     ],
   },
 },
+```
