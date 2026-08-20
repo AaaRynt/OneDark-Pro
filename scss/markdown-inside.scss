@@ -549,7 +549,7 @@
 
     &.vscode-body table th,
     &.vscode-body table td {
-      padding: 6px 13px;
+      padding: 0.25em 0.5em;
       /* border: 1px solid #dfe2e5; */
     }
 
@@ -715,6 +715,10 @@
         hr {
           height: 1px;
           background-color: #5c6370;
+        }
+        th,
+        td {
+          border-color: #5c6370 !important;
         }
         li::marker {
           color: #5c6370;

@@ -386,7 +386,7 @@
   font-weight: 700;
 }
 .vscode-dark[data-vscode-theme-name="One Dark Pro Mix"].vscode-body table th, .vscode-dark[data-vscode-theme-name="One Dark Pro Mix"].vscode-body table td, .vscode-dark[data-vscode-theme-name="One Dark Pro Flat"].vscode-body table th, .vscode-dark[data-vscode-theme-name="One Dark Pro Flat"].vscode-body table td, .vscode-dark[data-vscode-theme-name="One Dark Pro Darker"].vscode-body table th, .vscode-dark[data-vscode-theme-name="One Dark Pro Darker"].vscode-body table td, .vscode-dark[data-vscode-theme-name="One Dark Pro"].vscode-body table th, .vscode-dark[data-vscode-theme-name="One Dark Pro"].vscode-body table td {
-  padding: 6px 13px;
+  padding: 0.25em 0.5em;
   /* border: 1px solid #dfe2e5; */
 }
 .vscode-dark[data-vscode-theme-name="One Dark Pro Mix"].vscode-body img, .vscode-dark[data-vscode-theme-name="One Dark Pro Flat"].vscode-body img, .vscode-dark[data-vscode-theme-name="One Dark Pro Darker"].vscode-body img, .vscode-dark[data-vscode-theme-name="One Dark Pro"].vscode-body img {
@@ -532,6 +532,13 @@
 .vscode-dark[data-vscode-theme-name="One Dark Pro Mix"][data-vscode-theme-name="One Dark Pro"].vscode-body hr, .vscode-dark[data-vscode-theme-name="One Dark Pro Flat"][data-vscode-theme-name="One Dark Pro"].vscode-body hr, .vscode-dark[data-vscode-theme-name="One Dark Pro Darker"][data-vscode-theme-name="One Dark Pro"].vscode-body hr, .vscode-dark[data-vscode-theme-name="One Dark Pro"][data-vscode-theme-name="One Dark Pro"].vscode-body hr {
   height: 1px;
   background-color: #5c6370;
+}
+.vscode-dark[data-vscode-theme-name="One Dark Pro Mix"][data-vscode-theme-name="One Dark Pro"].vscode-body th,
+.vscode-dark[data-vscode-theme-name="One Dark Pro Mix"][data-vscode-theme-name="One Dark Pro"].vscode-body td, .vscode-dark[data-vscode-theme-name="One Dark Pro Flat"][data-vscode-theme-name="One Dark Pro"].vscode-body th,
+.vscode-dark[data-vscode-theme-name="One Dark Pro Flat"][data-vscode-theme-name="One Dark Pro"].vscode-body td, .vscode-dark[data-vscode-theme-name="One Dark Pro Darker"][data-vscode-theme-name="One Dark Pro"].vscode-body th,
+.vscode-dark[data-vscode-theme-name="One Dark Pro Darker"][data-vscode-theme-name="One Dark Pro"].vscode-body td, .vscode-dark[data-vscode-theme-name="One Dark Pro"][data-vscode-theme-name="One Dark Pro"].vscode-body th,
+.vscode-dark[data-vscode-theme-name="One Dark Pro"][data-vscode-theme-name="One Dark Pro"].vscode-body td {
+  border-color: #5c6370 !important;
 }
 .vscode-dark[data-vscode-theme-name="One Dark Pro Mix"][data-vscode-theme-name="One Dark Pro"].vscode-body li::marker, .vscode-dark[data-vscode-theme-name="One Dark Pro Flat"][data-vscode-theme-name="One Dark Pro"].vscode-body li::marker, .vscode-dark[data-vscode-theme-name="One Dark Pro Darker"][data-vscode-theme-name="One Dark Pro"].vscode-body li::marker, .vscode-dark[data-vscode-theme-name="One Dark Pro"][data-vscode-theme-name="One Dark Pro"].vscode-body li::marker {
   color: #5c6370;
