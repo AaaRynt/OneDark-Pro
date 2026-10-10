@@ -1,7 +1,7 @@
 {
   "name": "One Dark Pro",
   "type": "dark",
-  "semanticHighlighting": false,
+  "semanticHighlighting": true,
   "semanticTokenColors": {
     "annotation:dart": {
       "foreground": "#d19a66"
