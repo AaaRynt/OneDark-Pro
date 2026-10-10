@@ -1,5 +1,7 @@
-export default {
-  "actionBar.toggledBackground":"#525761",
+import { withModernUiTokens } from './modernUiTokens'
+
+export default withModernUiTokens({
+  'actionBar.toggledBackground': '#525761',
   'activityBar.background': '#282c34',
   'activityBar.foreground': '#c7ccd6',
   'activityBarBadge.background': '#21252b',
@@ -22,6 +24,7 @@ export default {
   'editor.findMatchHighlightBackground': '#ffffff22',
   'editor.foreground': '#abb2bf',
   'editor.lineHighlightBackground': '#2c313c',
+  'editor.linkedEditingBackground': '#d2e0ff1a',
   'editor.selectionBackground': '#67769660',
   'editor.selectionHighlightBackground': '#ffd33d44',
   'editor.selectionHighlightBorder': '#404859',
@@ -37,7 +40,6 @@ export default {
   'editorCursor.background': '#ffffffc9',
   'editorCursor.foreground': '#f0f0f0',
   'editorError.foreground': '#c24038',
-  'editorGroup.background': '#181a1f',
   'editorGroup.border': '#23252c',
   'editorGroup.emptyBackground': '#282c34',
   'editorGroupHeader.tabsBackground': '#282c34',
@@ -55,10 +57,10 @@ export default {
   'editorLineNumber.foreground': '#495162',
   'editorLink.activeForeground': '#f0f0f0',
   'editorMarkerNavigation.background': '#21252b',
-  'editorOverviewRuler.addedBackground': '#109868',
+  'editorOverviewRuler.addedForeground': '#109868',
   'editorOverviewRuler.border': '#282c34',
-  'editorOverviewRuler.deletedBackground': '#9A353D',
-  'editorOverviewRuler.modifiedBackground': '#948B60',
+  'editorOverviewRuler.deletedForeground': '#9A353D',
+  'editorOverviewRuler.modifiedForeground': '#948B60',
   'editorRuler.foreground': '#abb2bf26',
   'editorSuggestWidget.background': '#21252b',
   'editorSuggestWidget.border': '#181a1f',
@@ -165,6 +167,6 @@ export default {
   'titleBar.inactiveForeground': '#6b717d',
   'tree.indentGuidesStroke': '#343a45',
   'walkThrough.embeddedEditorBackground': '#2e3440',
-  'welcomePage.buttonHoverBackground': '#404754',
+  'welcomePage.tileHoverBackground': '#404754',
   'widget.shadow': '#23252c',
-}
+})

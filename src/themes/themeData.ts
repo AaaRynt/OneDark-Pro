@@ -2,6 +2,7 @@ enum colorType {
   chalky = 'chalky',
   coral = 'coral',
   dark = 'dark',
+  deepRed = 'deepRed',
   error = 'error',
   fountainBlue = 'fountainBlue',
   green = 'green',
@@ -11,7 +12,6 @@ enum colorType {
   malibu = 'malibu',
   purple = 'purple',
   whiskey = 'whiskey',
-  deepRed = 'deepRed',
 }
 
 export default {
@@ -240,7 +240,11 @@ export default {
       },
       {
         name: 'keyword.operator',
-        scope: ['keyword.operator.word'],
+        scope: [
+          'keyword.operator.word',
+          'keyword.operator.wordlike',
+          'keyword.operator.wordlike keyword.operator',
+        ],
         settings: {
           foreground: colorType.purple,
         },
@@ -2114,13 +2118,11 @@ export default {
         },
       },
       {
-        scope:[
-          "constant.character.math.tex"
-        ],
+        scope: ['constant.character.math.tex'],
         settings: {
           foreground: colorType.green,
         },
-      }
+      },
     ],
     italic: [
       {
